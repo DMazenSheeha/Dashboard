@@ -1,7 +1,7 @@
 import "./list.scss";
 import Sidebar from "../../components/Sidebar/Sidebar";
 import Navbar from "../../components/Navbar/Navbar";
-import DataTable from "../../components/Datatable/DataTable";
+import DataTable from "../../components/DataTable/DataTable";
 
 function List() {
   return (
