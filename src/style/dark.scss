@@ -1,0 +1,59 @@
+.dark {
+  background-color: #111;
+  color: rgb(156, 156, 156);
+  input {
+    background-color: transparent;
+  }
+  .stroke-grid {
+    stroke: rgba(228, 228, 228, 0.219);
+  }
+  .table {
+    background-color: #111;
+    .table-cell {
+      color: gray;
+    }
+  }
+  .navbar {
+    color: #999;
+    border-color: #333;
+    .search {
+      border-color: gray;
+    }
+  }
+  .sidebar {
+    background-color: #111;
+    border-color: #333;
+    .top {
+      .logo {
+        color: #999;
+      }
+    }
+    hr {
+      border-color: #333;
+    }
+    ul {
+      li {
+        &:hover {
+          background-color: #333;
+        }
+        .icon {
+          color: #999;
+        }
+      }
+    }
+  }
+  .data-table {
+    .data-grid {
+      color: gray;
+      border: none;
+      .MuiDataGrid-row--borderBottom.css-yseucu-MuiDataGrid-columnHeaderRow {
+        background-color: #111;
+      }
+      .view-btn,
+      .delete-btn {
+        border: none;
+        color: gray;
+      }
+    }
+  }
+}
